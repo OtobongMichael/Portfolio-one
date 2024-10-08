@@ -1,5 +1,5 @@
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { FaFacebookF, FaYoutube, FaLinkedinIn, FaReact } from "react-icons/fa";
+import { FaFacebookF,  FaLinkedinIn, FaReact, FaGithub } from "react-icons/fa";
 import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
 import { FadeIn } from "./FadeIn";
 
@@ -16,7 +16,7 @@ const LeftBanner = () => {
       <div className="flex flex-col gap-5">
         <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
         <h1 className="text-6xl font-bold text-white">
-          Hi, I'm <span className="text-designColor capitalize">John doe</span>
+          Hi, I'm <span className="text-designColor capitalize">Michael Ntia</span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
           a <span>{text}</span>
@@ -34,20 +34,20 @@ const LeftBanner = () => {
             Find me in
           </h2>
           <div className="flex gap-4">
-            <a href="https://www.youtube.com/@reactjsBD" target="_blank">
+            <a href="https://github.com/OtobongMichael" target="_blank">
               <span className="bannerIcon">
-                <FaYoutube />
+                <FaGithub />
               </span>
             </a>
             <a
-              href="https://www.linkedin.com/in/noor-mohammad-ab2245193/"
+              href="https://www.linkedin.com/in/michael-ntia-a615231b7/"
               target="_blank"
             >
               <span className="bannerIcon">
                 <FaLinkedinIn />
               </span>
             </a>
-            <a href="https://www.facebook.com/Noorlalu143/" target="_blank">
+            <a href="https://www.facebook.com/michael.ntia/" target="_blank">
               <span className="bannerIcon">
                 <FaFacebookF />
               </span>

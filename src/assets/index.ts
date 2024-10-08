@@ -1,8 +1,9 @@
 import logo from "./images/logo.png";
 import bannerImg from "./images/bannerImg.png";
-import projectOne from "./images/projects/projectOne.jpg";
-import projectTwo from "./images/projects/projectTwo.jpg";
-import projectThree from "./images/projects/projectThree.jpeg";
+import ProjectOne1 from "./images/projects/ProjectOne.jpg";
+import ProjectTwo2 from "./images/projects/ProjectTwo.jpeg";
+import ProjectThree3 from "./images/projects/ProjectThree.png";
+import ProjectFour4 from "./images/projects/ProjectFour.png";
 import testimonialOne from "./images/testmonial/testimonialOne.png";
 import testimonialTwo from "./images/testmonial/testimonialTwo.png";
 import quote from "./images/testmonial/quote.png";
@@ -11,9 +12,10 @@ import contactImg from "./images/contact/contactImg.png";
 export {
   logo,
   bannerImg,
-  projectOne,
-  projectTwo,
-  projectThree,
+  ProjectOne1,
+  ProjectTwo2,
+  ProjectThree3,
+  ProjectFour4,
   testimonialOne,
   testimonialTwo,
   quote,

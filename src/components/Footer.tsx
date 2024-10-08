@@ -1,27 +1,27 @@
-import { FaFacebookF, FaLinkedinIn, FaYoutube } from "react-icons/fa";
-import { logo } from "../assets";
+import { FaFacebookF, FaLinkedinIn, FaGithub } from "react-icons/fa";
+import  mic  from "../assets/images/mic.jpg";
 import { FadeIn } from "./FadeIn";
 
 const Footer = () => {
   return (
     <FadeIn className="w-full py-20 h-auto border-b-[1px] border-b-black grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-8">
       <div className="w-full h-full flex flex-col gap-8">
-        <img className="w-32" src={logo} alt="logo" />
+        <img className="w-32" src={mic} alt="mic" />
         <div className="flex gap-4">
-          <a href="https://www.youtube.com/@reactjsBD" target="_blank">
+          <a href="https://https://github.com/OtobongMichael" target="_blank">
             <span className="bannerIcon">
-              <FaYoutube />
+              <FaGithub />
             </span>
           </a>
           <a
-            href="https://www.linkedin.com/in/noor-mohammad-ab2245193/"
+            href="https://www.linkedin.com/in/michael-ntia-a615231b7/"
             target="_blank"
           >
             <span className="bannerIcon">
               <FaLinkedinIn />
             </span>
           </a>
-          <a href="https://www.facebook.com/Noorlalu143/" target="_blank">
+          <a href="https://www.facebook.com/michael.ntia/" target="_blank">
             <span className="bannerIcon">
               <FaFacebookF />
             </span>

@@ -14,24 +14,27 @@ const Education = () => {
           <p className="text-sm text-designColor tracking-[4px]">1998 - 2010</p>
           <h2 className="text-3xl md:text-4xl font-bold">Education Quality</h2>
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+
+        <div className="mt-8 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="BSc in Computer Science"
-            subTitle="University of DVI (2006 - 2010)"
-            result="3.90/4"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+            title="B.Tech Physcis with  Prod. Tech."
+            subTitle="University of Port Harcourt (20013 - 2019)"
+            result="2.65/5"
+            des="University of Port Harcourt well known for its strong academic prowess."
           />
+
           <ResumeCard
-            title="AS - Science & Information"
-            subTitle="SuperKing College (2001 - 2005)"
+            title="High School"
+            subTitle="Lutheran High School (2006 - 2012)"
+            result="SSCE"
+            des="Lutheran High School is a vibrant and inclusive secondary school that is dedicated to providing an excellent educational experience for all its students."
+          />
+
+          <ResumeCard
+            title="First School Certificate(FSC)"
+            subTitle="Nativity Private School (2001 - 2005)"
             result="4.75/5"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
-          />
-          <ResumeCard
-            title="Secondary School Education"
-            subTitle="Kingstar Secondary School (1998 - 2000)"
-            result="5.00/5"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
+            des="Nativity Private School is one of the best, and famous in Makurdi as it provides not just academics but wholistic learning."
           />
         </div>
       </div>
@@ -44,22 +47,28 @@ const Education = () => {
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google Out Tech - (2017 - Present)"
-            result="USA"
-            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+            title=" Software Engineer"
+            subTitle="Start Innovation Hub Team - (2023 - Present)"
+            result="NIGERIA"
+            des="Start Innovation Hub is a dynamic and forward-thinking innovation and technology incubation company dedicated to fostering entrepreneurship, driving innovation, and empowering startups to succeed in the fast-paced digital landscape. "
           />
           <ResumeCard
-            title="Web Developer & Trainer"
-            subTitle="Apple Developer Team - (2012 - 2016)"
-            result="MALAYSIA"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
+            title="Field Engineer"
+            subTitle="Epoxy Service Limited - (2022 - 2023)"
+            result="NIGERIA"
+            des="EPOXY SERVICES LTD is an indigenous Limited Liability Company, incorporated under the Company and Allied Matters Acts of 1990 of the Federal Republic of Nigeria. EPOXY SERVICES LTD is involved in the business of Sand Dredging and Land Reclamation, Marine Engineering and Land Logistics, Mechanical piping/pipeline & equipment installations (onshore/offshore) & Civil Construction, Shore Protection and Piling."
           />
           <ResumeCard
             title="Front-end Developer"
-            subTitle="Nike - (2020 - 2011)"
-            result="Oman"
-            des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
+            subTitle="Remita LTD - (2021 - 2022)"
+            result="NIGERIA"
+            des="Remita Ltd Group is a full service technology solutions provider."
+          />
+          <ResumeCard
+            title="Front-end Developer"
+            subTitle="Innovation Support Network (ISN) HUBS - (2021 - 2021)"
+            result="NIGERIA"
+            des="ISN Hubs is a Non-For-Profit Business Membership Organisation comprising of entrepreneurship, impact, innovation and technology hubs across the country."
           />
         </div>
       </div>

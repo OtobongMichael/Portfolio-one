@@ -15,10 +15,11 @@ const Experience = () => {
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google Out Tech - (2017 - Present)"
-            result="USA"
-            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+            title="Jr. Front End Developerr"
+            subTitle=" - (2017 - Present)"
+            result="PORT HARCOURT"
+            des="ISN Hubs is a Non-For-Profit Business Membership Organisation comprising of
+           entrepreneurship, impact, innovation and technology hubs across the country.."
           />
           <ResumeCard
             title="Web Developer & Trainer"
@@ -28,9 +29,9 @@ const Experience = () => {
           />
           <ResumeCard
             title="Front-end Developer"
-            subTitle="Nike - (2020 - 2011)"
+            subTitle="Hub10 - (2020 - 2011)"
             result="Oman"
-            des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
+            des="HUB10 is a smart coworking office that offers different categories of affordable working space to suit your working needs."
           />
         </div>
       </div>
@@ -41,22 +42,27 @@ const Experience = () => {
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Gym Instructor"
-            subTitle="Rainbow Gym Center (2015 - 2020)"
-            result="DHAKA"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+            title="Field Engineer"
+            subTitle="Epoxy service Limited  (2015 - 2018)"
+            result="PORT HARCOURT"
+            des="EPOXY SERVICES LTD is an indigenous Limited Liability Company, incorporated
+            under the Company and Allied Matters Acts of 1990 of the Federal Republic of
+            Nigeria. EPOXY SERVICES LTD is involved in the business of Sand Dredging and
+            Land Reclamation, Marine Engineering and Land Logistics, Mechanical
+            piping/pipeline & equipment installations (onshore/offshore) & Civil Construction,
+            Shore Protection and Piling."
           />
           <ResumeCard
-            title="Web Developer and Instructor"
-            subTitle="SuperKing College (2010 - 2014)"
-            result="CANADA"
+            title="Marine Engineer"
+            subTitle="Harbour Masters Limited  (2016 - 2017)"
+            result="PORT HARCOURT"
             des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
           />
           <ResumeCard
-            title="School Teacher"
-            subTitle="Kingstar Secondary School (2001 - 2010)"
-            result="NEVADA"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
+            title="Medical Clinic (Nysc)"
+            subTitle="Fedral College of Agriculture (2001 - 2010)"
+            result="EBONYI STATE"
+            des="The College provides health care services to staff and students at the Medical Centre which is situated on the Campus. The Centre operates a 24-hour service for both students and staff from Monday to Sunday and public holidays inclusive. Minor cases of sickness are treated at the Centre while serious ones are normally referred to state hospital at the expense of the student’s sponsor."
           />
         </div>
       </div>
